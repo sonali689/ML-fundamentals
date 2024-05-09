@@ -1,2 +1,3 @@
-# Voice-Morph-Companion
-This Repo Contains all the Assignments, Submissions and Weekly Progress of the Summer Project - Voice Morph Companion
+# This is the Working Repo of Voice Morph Companion 
+
+PR will be accepted if it doesn't clash
