@@ -11,6 +11,8 @@ Decision trees are a non-parametric supervised learning method used for classifi
 
 ## Random Forests 
 Random forests are an ensemble learning method that constructs multiple decision trees and combines their outputs to improve accuracy and control overfitting. They are widely used for classification, regression, and other tasks
+
+### Resources
 - How do Random Forests Work [Youtube Link](https://www.youtube.com/watch?v=loNcrMjYh64)
--Understanding random forests in machine learning[Medium Article](https://medium.com/educative/understanding-random-forests-in-machine-learning-9e9a69c3ac80)
+- Understanding random forests in machine learning[Medium Article](https://medium.com/educative/understanding-random-forests-in-machine-learning-9e9a69c3ac80)
 - Beyond Gradient Boosting: Exploring Ensemble Methods with XGBoost, LightGBM, and Random Forests [Medium Article](https://medium.com/@data-overload/beyond-gradient-boosting-exploring-ensemble-methods-with-xgboost-lightgbm-and-random-forests-2e7f39bc2b75)
