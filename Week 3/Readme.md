@@ -22,6 +22,10 @@ This repository contains the assignments and resources for Week 3 of our Project
 ```plaintext
 Week 3/
 │
+├── Audio Processing/
+│   └── Data/
+│   └── Assignment/
+├── AudioSignalProcessingForML/
 ├── Audio and CNN Assignment/
 │   └── TInySOL Dataset/
 │       └── TinySOL/
@@ -49,8 +53,10 @@ Week 3/
 
 ## Usage
 
-
-
+### Audio Signal Processing For ML
+1. Refer to the course on [Youtube](https://youtube.com/playlist?list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0&si=eRvjw-H5bEUtCbAt)
+2. Complete the assignments in the `AudioSignalProcessingForML` directory
+3. Use the `Audio Processing.ipynb` notebook in the Audio Processing folder to test your understanding.
 ### Utilizing CNN Resources
 
 1. The `CNN Resources` directory contains additional materials:
