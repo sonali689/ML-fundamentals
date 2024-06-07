@@ -1,0 +1,27 @@
+import serial
+import time
+import csv
+
+# Start time in milliseconds
+start_time = int(round(time.time() * 1000))
+
+with open('SensorData.csv', mode='a') as sensor_file:
+    sensor_writer = csv.writer(sensor_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    sensor_writer.writerow(["Time (ms)", "Value"])
+
+com = "COM8"
+baud = 115200
+# Assuming serial port settings are defined elsewhere (e.g., com="COM8", baud=115200)
+x = serial.Serial(com, baud, timeout=0.1)
+
+while x.isOpen() == True:
+    data = str(x.readline().decode('utf-8')).rstrip()
+    if data:
+        # Get current time in milliseconds since program start
+        current_time_ms = int(round(time.time() * 1000)) - start_time
+
+        print(f"Time (ms): {current_time_ms}, Value: {data}")
+
+        with open('SensorData.csv', mode='a') as sensor_file:
+            sensor_writer = csv.writer(sensor_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            sensor_writer.writerow([current_time_ms, data])
