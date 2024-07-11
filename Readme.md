@@ -16,13 +16,8 @@ In Week 2, we dive deeper into the world of machine learning, covering topics of
 In Week 3, We work on concepts of Audio Processing and how can they be integrated with ML,After this we CNN and their implementation is emphasized. We end this week with a Banger Assignment on Audio Classification to find instruments on TinySOL Dataset. 
 
 ### Week 4
-In Week 4, We Split the Mentees into 3 Groups,
 1. Natural Language Processing 
 2. Audio Classification
-3. Hardware for IR Wav
 
-- The NLP Group learn basic NLP techniques and work on using SVM on text.
-- The Audio Classification Group learn to implement the Audio Classification Model on Arduino Nano BLE and Extracting Data from Serial and storing them in a CSV file.
-- The Hardware Group learn about IR WAV and how to construct a small touch screen of size 4*4 using basic led's. The Hardware group also starts working on PCB. 
-
-Last updated on 05/06/2024
+- The NLP let you learn basic NLP techniques and work on using SVM on text.
+- The Audio Classification let you learn to implement the Audio Classification Model on Arduino Nano BLE and Extracting Data from Serial and storing them in a CSV file.
