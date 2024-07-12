@@ -1,9 +1,3 @@
-# Voice Morph Companion 
-## Introduction
-This is a project taken up by Electronics Club in the Summer of 2024. The Project involves implementing a Chatbot on Raspberry Pi, Audio Classification on Arduino Nano BLE and Constructing a touch screen using IR WAV. 
-
-The Repository Contains the Resources of Project Clearly documented in week wise progress. Please contact Electronics Club of IIT Kanpur for any further details of the Project. 
-
 ### Week 1 
 In week 1,We focus on various topics such as basic Python programming, machine learning, support vector machines, and libraries. The aim is to provide foundational knowledge and hands-on practice through structured assignments and examples.
 
